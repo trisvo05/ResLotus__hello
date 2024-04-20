@@ -1,0 +1,178 @@
+
+.chinh{
+    height: 100px;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    position: fixed;
+    top:0px;
+    background-color: white;
+    
+}
+.chem_gio{
+
+    margin-left: 150px;
+    font-size: 150%;
+    font-weight: bold;
+    color:#212121;
+    
+}
+.logo{
+    height : 100%;
+    width: 100px;;
+    object-fit: cover;
+
+}
+.nav{
+    height : 40px ;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content:space-around;
+    background-color: rgb(13, 13, 78);
+    position:fixed;
+    top:100px;
+}
+span{
+    color : white;
+}
+.background{
+    margin-top:140px;
+    height :300px;
+    width : 100%;
+
+}
+img{
+    height :350px;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+
+}
+.content{
+    margin: 90px 230px;
+    font-size: 125%;
+}
+
+
+
+
+.title_page{
+    color :black;
+    font-size: 150%;
+    font-weight: bold;
+    text-align : center;
+    margin-top:150px;
+}
+.chuyen_gia{
+    height : 200px;
+    width: 80%;
+    padding: 20px;
+    border: solid rgb(126, 112, 112) 2px;
+    margin:auto;
+}
+.chuyen_gia__avatar{
+    height : 190px;
+    max-width: 18%;
+    object-fit: cover ;
+    float:left;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-right :5px;
+}
+.chuyen_gia__info--name{
+    color :#0066a6;
+    
+}
+.chuyen_gia__info{
+    max-width :45%;
+    height : 170px;
+    float:left;
+
+}
+
+.ok{
+    color:#0066a6
+}
+.chuyen_gia__desc{
+    max-width : 30%;
+    height : 170px;
+    float:right ;
+}
+
+.chat_content{
+    width : 810px;
+    height: 415px;
+    border:black solid 2px;
+    border-radius:5px ;
+    background-color: #212121;
+    color: white
+}
+.user_message{
+    width : 500px;
+
+}
+.bot{
+    text-align: center;
+
+}
+.title{
+    text-align : center;
+    color : rgb(225, 209, 209) ;
+    font-size: 150%;
+    font-weight:bold;
+}
+.wrap{
+    margin-top : 140px;
+    padding-top : 50px;
+    height : 700px;
+    background-image: url("https://media.istockphoto.com/id/1493164827/vi/anh/s%E1%BB%A9c-kh%E1%BB%8Fe-t%C3%A2m-th%E1%BA%A7n-b%E1%BB%99-n%C3%A3o-%C4%91%E1%BA%A7y-m%C3%A0u-s%E1%BA%AFc-t%C6%B0%C6%A1i-s%C3%A1ng-v%E1%BB%9Bi-%E1%BB%91ng-nghe-%E1%BA%A3nh-minh-h%E1%BB%8Da-y-t%E1%BA%BF-v%C3%A0-ch%C4%83m-s%C3%B3c-s%E1%BB%A9c.jpg?s=1024x1024&w=is&k=20&c=PgCbln5L5UeOjQHBT5AU3XNPUE67Kw5TS7mxMQ2H4Zc=");
+}
+.post{
+    height: 150px;
+    width: 50%;
+    /* justify-content: center; */
+    /* text-align:center; */
+    /* background-color: black; */
+    margin : auto;
+    margin-top :100px;
+    /* padding: 10px; */
+    display:flex;
+    /* border: #0066a6 solid 2px; */
+}
+.post__image{
+    height : 90%;
+    width : 270px;
+    object-fit: cover;
+
+}
+.text__title{
+    font-size: 125%;
+    font-weight: bold;
+    margin-left : 10px;
+    margin-bottom: 10px;
+}
+.text__time{
+    font-size: 80%;
+    font-weight: 80%;
+    margin-left : 10px;
+    margin-bottom: 10px;
+
+}
+.text__desc{
+    font-size: 80%;
+    font-weight: 80%;
+    margin-left : 10px;
+    margin-bottom: 10px;
+}
+a{
+    color:black;
+    text-decoration: none;
+}
+a:hover {
+    transform: translateY(-3px); /* Dịch chuyển lên */
+    box-shadow: 0px 0px 10px rgba(169, 16, 16, 0.3); /* Đổ bóng */
+    transition: translateY(-3px) 0.3s, ; /* Hiệu ứng chuyển động */
+    box-shadow: 0.3s;
+    color:#0066a6;
+}

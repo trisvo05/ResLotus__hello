@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên hệ</title>
+    <link rel="stylesheet" href=".reset.css">
+    <link rel="stylesheet" href="{{url_for('static',filename='../static/style.css')}}">
+    <link rel="stylesheet" href="../fontawesome-free-6.5.1-web/css/all.min.css">
+</head>
+<body>
+    <div class="chinh">
+        <img src="https://scontent.fhan14-5.fna.fbcdn.net/v/t1.15752-9/433830409_783638597026714_5843887503234507933_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeE68MM6L0t9V12FIjgdQuy_raz7OyeiUJGtrPs7J6JQkQD_m5lCEO8yTQ2vmy1iRAU6XZ2lA1Cjuqwy0LKp2lqn&_nc_ohc=tpn-_dx90MkAb5PXVG6&_nc_ht=scontent.fhan14-5.fna&oh=03_AdX0F0O-3HX1LcNVZdVHG_PBoXeUz2oFoc0OM6nVx9jHKA&oe=664499F0" alt="" class="logo">
+        <img src="https://ript.vn/wp-content/uploads/2023/08/RIPT-Logo-2-removebg-preview.png" alt="" class="logo">
+        <img src="https://ript.vn/wp-content/uploads/2023/08/logo-ptit-removebg-preview.png" alt="" class="logo">
+        <p class="chem_gio">Nền tảng chăm sóc sức khỏe tinh thần số 1 Việt Nam</p>
+    </div>
+    <div class="nav">
+        <a href="{{ url_for('home') }}">
+            <i class="fa-solid fa-house"></i>
+            <span>Trang chủ</span>
+        </a>
+        <a href="{{ url_for('chatbot1') }}">
+            <i class="fa-solid fa-house"></i>
+            <span>Bác sĩ AI</span>
+        </a>
+        <a href="{{ url_for('lienhe') }}">
+            <i class="fa-solid fa-house"></i>
+            <span>Liên hệ chuyên gia</span>
+        </a>
+        <a href="{{ url_for('baiviet') }}">
+            <i class="fa-solid fa-house"></i>
+            <span>Bài viết</span>
+        </a>
+    </div>
+    <p class="title_page">Danh sách chuyên gia</p>
+    <div class="chuyen_gia">
+        <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="chuyen_gia__avatar">
+        <div class="chuyen_gia__info">
+            <span class="chuyen_gia__info--name">Bác sĩ Võ Minh Trí</span>
+            <div class="chuyen_gia__info--position">
+                <i class="fa-solid fa-graduation-cap">Giáo</i>
+                <i class="fa-solid fa-graduation-cap">Gây mê - điều trị đau</i>
+                <i class="fa-solid fa-graduation-cap">Khoa Gây mê giảm đau - Bệnh viện Đa khoa Quốc tế Vinmec Times City</i>
+            </div>
+        </div>
+        <p class="chuyen_gia__desc">Giáo sư, Bác sĩ Võ Minh Trí đã cống hiến hơn 30 năm trong lĩnh vực Tâm lý trị liệu </p>
+    </div>
+    <div class="chuyen_gia">
+        <img src="https://plus.unsplash.com/premium_photo-1712844381902-8f65c580a5f1?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="chuyen_gia__avatar">
+        <div class="chuyen_gia__info">
+            <span class="chuyen_gia__info--name">PGS.TS Lê Thị Hoa</span>
+            <div class="chuyen_gia__info--position">
+                <i class="fa-solid fa-graduation-cap">Giáo sư , Tiến sĩ, Bác sĩ</i>
+                <i class="fa-solid fa-graduation-cap">Gây mê - điều trị đau</i>
+                <i class="fa-solid fa-graduation-cap">Khoa Gây mê giảm đau - Bệnh viện Đa khoa Quốc tế Vinmec Times City</i>
+            </div>
+        </div>
+        <p class="chuyen_gia__desc">PGS.TS Lê Thị Hoa đã có 40 năm kinh nghiệm trong tham vấn tâm lý, chuyên về: Quản lý, lãnh đạo; Tình yêu – hôn nhân – gia đình.</p>
+    </div>
+    <div class="chuyen_gia">
+        <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="chuyen_gia__avatar">
+        <div class="chuyen_gia__info">
+            <span class="chuyen_gia__info--name">Bác sĩ Philippe Macaire</span>
+            <div class="chuyen_gia__info--position">
+                <i class="fa-solid fa-graduation-cap">Giáo sư , Tiến sĩ, Bác sĩ</i>
+                <i class="fa-solid fa-graduation-cap">Gây mê - điều trị đau</i>
+                <i class="fa-solid fa-graduation-cap">Khoa Gây mê giảm đau - Bệnh viện Đa khoa Quốc tế Vinmec Times City</i>
+            </div>
+        </div>
+        <p class="chuyen_gia__desc">Giáo sư, Bác sĩ Philippe Macaire đã cống hiến hơn 30 năm trong lĩnh vực Gây mê - điều trị đau.</p>
+    </div>
+    <div class="chuyen_gia">
+        <img src="https://plus.unsplash.com/premium_photo-1712844381902-8f65c580a5f1?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="chuyen_gia__avatar">
+        <div class="chuyen_gia__info">
+            <span class="chuyen_gia__info--name">Bác sĩ Philippe Macaire</span>
+            <div class="chuyen_gia__info--position">
+                <i class="fa-solid fa-graduation-cap">Giáo sư , Tiến sĩ, Bác sĩ</i>
+                <i class="fa-solid fa-graduation-cap">Gây mê - điều trị đau</i>
+                <i class="fa-solid fa-graduation-cap">Khoa Gây mê giảm đau - Bệnh viện Đa khoa Quốc tế Vinmec Times City</i>
+            </div>
+        </div>
+        <p class="chuyen_gia__desc">Giáo sư, Bác sĩ Philippe Macaire đã cống hiến hơn 30 năm trong lĩnh vực Gây mê - điều trị đau.</p>
+    </div>
+    <div class="chuyen_gia">
+        <img src="https://plus.unsplash.com/premium_photo-1712844381902-8f65c580a5f1?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="chuyen_gia__avatar">
+        <div class="chuyen_gia__info">
+            <span class="chuyen_gia__info--name">PGS.TS Lê Thị Hoa</span>
+            <div class="chuyen_gia__info--position">
+                <i class="fa-solid fa-graduation-cap">Giáo sư , Tiến sĩ, Bác sĩ</i>
+                <i class="fa-solid fa-graduation-cap">Gây mê - điều trị đau</i>
+                <i class="fa-solid fa-graduation-cap">Khoa Gây mê giảm đau - Bệnh viện Đa khoa Quốc tế Vinmec Times City</i>
+            </div>
+        </div>
+        <p class="chuyen_gia__desc">PGS.TS Lê Thị Hoa đã có 40 năm kinh nghiệm trong tham vấn tâm lý, chuyên về: Quản lý, lãnh đạo; Tình yêu – hôn nhân – gia đình.</p>
+    </div>
+    <div class="chuyen_gia">
+        <img src="https://plus.unsplash.com/premium_photo-1712844381902-8f65c580a5f1?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="chuyen_gia__avatar">
+        <div class="chuyen_gia__info">
+            <span class="chuyen_gia__info--name">PGS.TS Lê Thị Hoa</span>
+            <div class="chuyen_gia__info--position">
+                <i class="fa-solid fa-graduation-cap">Giáo sư , Tiến sĩ, Bác sĩ</i>
+                <i class="fa-solid fa-graduation-cap">Gây mê - điều trị đau</i>
+                <i class="fa-solid fa-graduation-cap">Khoa Gây mê giảm đau - Bệnh viện Đa khoa Quốc tế Vinmec Times City</i>
+            </div>
+        </div>
+        <p class="chuyen_gia__desc">PGS.TS Lê Thị Hoa đã có 40 năm kinh nghiệm trong tham vấn tâm lý, chuyên về: Quản lý, lãnh đạo; Tình yêu – hôn nhân – gia đình.</p>
+    </div>
+    <div class="chuyen_gia">
+        <img src="https://plus.unsplash.com/premium_photo-1712844381902-8f65c580a5f1?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="chuyen_gia__avatar">
+        <div class="chuyen_gia__info">
+            <span class="chuyen_gia__info--name">PGS.TS Lê Thị Hoa</span>
+            <div class="chuyen_gia__info--position">
+                <i class="fa-solid fa-graduation-cap">Giáo sư , Tiến sĩ, Bác sĩ</i>
+                <i class="fa-solid fa-graduation-cap">Gây mê - điều trị đau</i>
+                <i class="fa-solid fa-graduation-cap">Khoa Gây mê giảm đau - Bệnh viện Đa khoa Quốc tế Vinmec Times City</i>
+            </div>
+        </div>
+        <p class="chuyen_gia__desc">PGS.TS Lê Thị Hoa đã có 40 năm kinh nghiệm trong tham vấn tâm lý, chuyên về: Quản lý, lãnh đạo; Tình yêu – hôn nhân – gia đình.</p>
+    </div>
+    <div class="chuyen_gia">
+        <img src="https://plus.unsplash.com/premium_photo-1712844381902-8f65c580a5f1?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="chuyen_gia__avatar">
+        <div class="chuyen_gia__info">
+            <span class="chuyen_gia__info--name">PGS.TS Lê Thị Hoa</span>
+            <div class="chuyen_gia__info--position">
+                <i class="fa-solid fa-graduation-cap">Giáo sư , Tiến sĩ, Bác sĩ</i>
+                <i class="fa-solid fa-graduation-cap">Gây mê - điều trị đau</i>
+                <i class="fa-solid fa-graduation-cap">Khoa Gây mê giảm đau - Bệnh viện Đa khoa Quốc tế Vinmec Times City</i>
+            </div>
+        </div>
+        <p class="chuyen_gia__desc">PGS.TS Lê Thị Hoa đã có 40 năm kinh nghiệm trong tham vấn tâm lý, chuyên về: Quản lý, lãnh đạo; Tình yêu – hôn nhân – gia đình.</p>
+    </div>
+</body>
+</html>
